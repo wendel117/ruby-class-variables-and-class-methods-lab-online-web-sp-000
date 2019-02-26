@@ -17,8 +17,7 @@ def self.count
 end
 
 def self.genres
-  @genre = array
-  return array
+  @genre
 end
 
 
