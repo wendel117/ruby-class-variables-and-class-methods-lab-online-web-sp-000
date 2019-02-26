@@ -6,7 +6,7 @@ class Song
 
 
 
-def initialize(name, artist, genre)
+def initialize(name, artist, genre, count, genre_count, artist_count)
   @name = name
   @artist = artist
   @genre = genre
