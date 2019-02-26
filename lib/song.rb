@@ -19,7 +19,7 @@ end
 def self.genres
   @genre=genre
   array.new = @genre
-
+end
 
 
 end
