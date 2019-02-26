@@ -8,6 +8,7 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
 end
+
 def name
   @name = name
 end
