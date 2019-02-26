@@ -28,11 +28,13 @@ def self.artists
 end
 
 def self.genre_count
-
+  @@genres.each { |x| @@genre_count[x] = @@genres.count(x) }
+  @@genre_count
 end
 
 def self.artist_count
+  @@artists.each { |x| @@artist_count[x] = @@artists.count(x) }
+  @@artist_count
 
-end
 
 end
