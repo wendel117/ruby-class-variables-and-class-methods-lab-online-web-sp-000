@@ -11,16 +11,18 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
   @@count =+ 1
+  @@genre_count =+ 1
+  @@artist_count += 1
 end
 
 def self.count
   @@count
 end
 
-def self.genre_count
+def self.genres
   @@genre_count
 end
-def self.artist_count
+def self.artists
   @@artist_count
 end
 
