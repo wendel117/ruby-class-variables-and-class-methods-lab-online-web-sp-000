@@ -17,12 +17,9 @@ def self.count
 end
 
 def self.genres
-  @@genre_count
-end
-def self.artists
-  @@artist_count
-end
-
+  @genre=genre
+  array.new = @genre
+  
 
 
 end
