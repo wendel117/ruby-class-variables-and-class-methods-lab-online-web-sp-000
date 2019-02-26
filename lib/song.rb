@@ -1,4 +1,7 @@
 class Song
+  @@count = 0
+  @@artist_count = 0
+  @@genre_count = 0
 
 def name
   @name = name
