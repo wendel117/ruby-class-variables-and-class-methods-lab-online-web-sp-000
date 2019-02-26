@@ -35,6 +35,6 @@ end
 def self.artist_count
   @@artists.each { |x| @@artist_count[x] = @@artists.count(x) }
   @@artist_count
-
+end
 
 end
